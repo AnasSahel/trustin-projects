@@ -1,10 +1,20 @@
 {
 	"name": "trustin-projects",
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+	"postCreateCommand": "bash .devcontainer/scripts/post-create.sh",
 	"features": {
 		"ghcr.io/devcontainers/features/github-cli:1": {
 			"installDirectlyFromGitHubRelease": true,
 			"version": "latest"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"mhutchie.git-graph",
+				"bradlc.vscode-tailwindcss",
+				"esbenp.prettier-vscode"
+			]
 		}
 	}
 }
