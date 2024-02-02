@@ -1,18 +1,19 @@
 {
-    "name": "@trustin/projects",
-    "version": "0.1.0",
-    "author": {
-        "name": "trustin"
-    },
-    "scripts": {
-        "dev": "turbo dev"
-    },
-    "devDependencies": {
-        "turbo": "^1.11.3",
-        "prettier": "^3.2.4"
-    },
-    "workspaces": [
-        "apps/*",
-        "packages/*"
-    ]
+  "name": "@trustin/projects",
+  "version": "0.1.0",
+  "author": {
+    "name": "trustin"
+  },
+  "scripts": {
+    "dev": "turbo dev"
+  },
+  "devDependencies": {
+    "turbo": "^1.11.3",
+    "prettier": "^3.2.4",
+    "prettier-plugin-tailwindcss": "^0.5.11"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }
