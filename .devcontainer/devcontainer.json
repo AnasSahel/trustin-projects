@@ -1,16 +1,20 @@
 {
-    "name": "trustin-projects",
-    "dockerComposeFile": "compose.yml",
-    "service": "app",
-    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-    "forwardPorts": [
-        3001
-    ],
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "ms-azuretools.vscode-docker"
-            ]
-        }
+  "name": "trustin-projects",
+  "dockerComposeFile": "compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "forwardPorts": [3001],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-typescript-next",
+        "rodrigovallades.es7-react-js-snippets",
+        "bradlc.vscode-tailwindcss",
+        "Codeium.codeium",
+        "Prisma.prisma"
+      ]
     }
+  }
 }

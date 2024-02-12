@@ -6,7 +6,10 @@
   },
   "scripts": {
     "dev": "turbo dev",
-    "build": "turbo build"
+    "build": "turbo build",
+    "db:prisma:init": "turbo db:prisma:init",
+    "db:prisma:push": "turbo db:prisma:push",
+    "db:prisma:generate": "turbo db:prisma:generate"
   },
   "devDependencies": {
     "turbo": "^1.11.3",
