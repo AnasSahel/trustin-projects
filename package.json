@@ -6,14 +6,11 @@
   },
   "scripts": {
     "dev": "turbo dev",
-    "build": "turbo build",
-    "db:prisma:init": "turbo db:prisma:init",
-    "db:prisma:push": "turbo db:prisma:push",
-    "db:prisma:generate": "turbo db:prisma:generate"
+    "build": "turbo build"
   },
   "devDependencies": {
-    "turbo": "^1.11.3",
-    "prettier": "^3.2.4",
+    "turbo": "^1.12.3",
+    "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11"
   },
   "workspaces": [
