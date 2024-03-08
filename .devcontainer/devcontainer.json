@@ -1,7 +1,7 @@
 {
   "name": "trustin-projects",
   "dockerComposeFile": "compose.yml",
-  "service": "app",
+  "service": "devcontainer",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "forwardPorts": [3001],
   "customizations": {
@@ -13,7 +13,7 @@
         "rodrigovallades.es7-react-js-snippets",
         "bradlc.vscode-tailwindcss",
         "Codeium.codeium",
-        "Prisma.prisma"
+        "naumovs.color-highlight"
       ]
     }
   }
