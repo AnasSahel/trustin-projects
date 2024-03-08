@@ -7,11 +7,11 @@
     },
     "dev": {
       "cache": false,
-      "persistent": true,
-      "dependsOn": ["db:prisma:push", "db:prisma:generate"]
-    },
-    "db:prisma:init": { "cache": false },
-    "db:prisma:push": { "cache": false },
-    "db:prisma:generate": { "cache": false }
+      "persistent": true
+      // "dependsOn": ["db:prisma:push", "db:prisma:generate"]
+    }
+    // "db:prisma:init": { "cache": false },
+    // "db:prisma:push": { "cache": false },
+    // "db:prisma:generate": { "cache": false }
   }
 }
