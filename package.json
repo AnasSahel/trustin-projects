@@ -6,13 +6,13 @@
   },
   "scripts": {
     "dev": "turbo dev",
-    "dev:console-app": "turbo dev --filter=@trustin/console-app",
+    "dev:smartops-app": "turbo dev --filter=@trustin/smartops-app",
     "build": "turbo build"
   },
   "devDependencies": {
-    "turbo": "^1.12.4",
+    "turbo": "^1.12.5",
     "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.11"
+    "prettier-plugin-tailwindcss": "^0.5.12"
   },
   "workspaces": [
     "apps/*",
