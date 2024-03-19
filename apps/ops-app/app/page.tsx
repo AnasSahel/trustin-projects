@@ -7,7 +7,7 @@ export default async function Home() {
       {items.map((item) => {
         return (
           <p key={item.id}>
-            {item.name} / {item.birth}
+            Item: {item.name} / {item.birth}
           </p>
         );
       })}
