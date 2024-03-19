@@ -7,7 +7,6 @@
         "!.next/cache/**"
       ],
       "dependsOn": [
-        "drizzle:generate",
         "drizzle:migrate"
       ]
     },
@@ -28,6 +27,9 @@
       "cache": false
     },
     "drizzle:migrate": {
+      "dependsOn": [
+        "drizzle:generate"
+      ],
       "cache": false
     }
   }
