@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary-h: 219deg;
+    --color-primary-s: 53%;
+    --color-primary-l: 93%;
+
+    --color-secondary-h: 131deg;
+    --color-secondary-s: 15%;
+    --color-secondary-l: 49%;
+
+    --color-tertiary-h: 38deg;
+    --color-tertiary-s: 50%;
+    --color-tertiary-l: 68%;
+
+    --color-neutral-h: 220deg;
+    --color-neutral-s: 4%;
+    --color-neutral-l: 86%;
+
+    --color-neutral-variant-h: 220deg;
+    --color-neutral-variant-s: 9%;
+    --color-neutral-variant-l: 93%;
+
+    --color-error-h: 0deg;
+    --color-error-s: 86%;
+    --color-error-l: 43%;
+  }
+}

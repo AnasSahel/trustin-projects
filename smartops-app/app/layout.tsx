@@ -1,7 +1,7 @@
 import { LayoutProps } from '@/lib/types';
 import { cn } from '@/lib/utils';
 import type { Metadata } from 'next';
-import { Comme as FontSans } from 'next/font/google';
+import { Open_Sans as FontSans } from 'next/font/google';
 import './globals.css';
 
 const fontSans = FontSans({
