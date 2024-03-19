@@ -22,9 +22,7 @@
       "cache": false
     },
     "drizzle:generate": {
-      "outputs": [
-        "drizzle/**"
-      ]
+      "cache": false
     },
     "drizzle:migrate": {
       "cache": false
