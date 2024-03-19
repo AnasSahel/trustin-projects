@@ -5,11 +5,29 @@
       "outputs": [
         ".next/**",
         "!.next/cache/**"
+      ],
+      "dependsOn": [
+        "drizzle:generate",
+        "drizzle:migrate"
       ]
     },
     "dev": {
       "cache": false,
-      "persistent": true
+      "persistent": true,
+      "dependsOn": [
+        "drizzle:push"
+      ]
+    },
+    "drizzle:push": {
+      "cache": false
+    },
+    "drizzle:generate": {
+      "outputs": [
+        "drizzle/**"
+      ]
+    },
+    "drizzle:migrate": {
+      "cache": false
     }
   }
 }

@@ -7,7 +7,10 @@
   "scripts": {
     "dev": "turbo dev",
     "dev:smartops-app": "turbo dev --filter=@trustin/ops-app",
-    "build": "turbo build"
+    "build": "turbo build",
+    "drizzle:push": "turbo drizzle:push",
+    "drizzle:generate": "turbo drizzle:generate",
+    "drizzle:migrate": "turbo drizzle:migrate"
   },
   "devDependencies": {
     "turbo": "^1.12.5",

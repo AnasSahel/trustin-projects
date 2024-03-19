@@ -6,3 +6,13 @@ services:
     volumes:
       - ../..:/workspaces:cache
     command: sleep infinity
+
+  ops-db:
+    image: postgres
+    env_file:
+      - .ops-db.env
+    volumes:
+      - ops-db-data:/var/lib/postgresql/data
+
+volumes:
+  ops-db-data:
