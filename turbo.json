@@ -5,7 +5,7 @@
       "outputs": [
         ".next/**",
         "!.next/cache/**"
-      ],
+      ]
     },
     "dev": {
       "cache": false,
