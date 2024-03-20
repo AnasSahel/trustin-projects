@@ -13,7 +13,8 @@
         "rodrigovallades.es7-react-js-snippets",
         "bradlc.vscode-tailwindcss",
         "Codeium.codeium",
-        "naumovs.color-highlight"
+        "naumovs.color-highlight",
+        "mhutchie.git-graph"
       ]
     }
   },

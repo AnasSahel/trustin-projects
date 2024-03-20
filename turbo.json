@@ -12,13 +12,7 @@
     },
     "dev": {
       "cache": false,
-      "persistent": true,
-      "dependsOn": [
-        "drizzle:push"
-      ]
-    },
-    "drizzle:push": {
-      "cache": false
+      "persistent": true
     },
     "drizzle:generate": {
       "outputs": [

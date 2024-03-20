@@ -6,7 +6,7 @@
   },
   "scripts": {
     "dev": "turbo dev",
-    "dev:smartops-app": "turbo dev --filter=@trustin/ops-app",
+    "dev:smartops-app": "turbo dev --filter=@trustin/smartops-app",
     "build": "turbo build",
     "drizzle:push": "turbo drizzle:push",
     "drizzle:generate": "turbo drizzle:generate",
